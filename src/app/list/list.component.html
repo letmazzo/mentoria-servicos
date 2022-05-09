@@ -1,0 +1,29 @@
+<!-- 1 -->
+<!-- <ul *ngFor="let dev of devs">
+  <li>{{ dev }}</li>
+</ul> -->
+
+<!-- 2 -->
+<!-- <ul *ngFor="let dev of devs">
+  <li>{{ dev }}</li>
+</ul> -->
+<!-- <ul *ngFor="let name of names">
+  <li>{{ name }}</li>
+</ul> -->
+
+<!-- 3 -->
+<table>
+  <thead>
+    <tr>
+      <th>Nome</th>
+      <th>Github</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let user of users">
+      <td>{{ user.name }}</td>
+      <td>{{ user.github }}</td>
+    </tr>
+  </tbody>
+</table>
+
