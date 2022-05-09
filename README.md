@@ -12,6 +12,11 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 Run `ng generate service service-name` to generate a new service.
 
+## Install JSON server
+`npm i json-server`
+
+Create `db.json` file
+
 ## Running JSON server
 `npx json-server --watch db.json`
 
